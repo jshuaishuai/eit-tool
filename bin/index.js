@@ -17,4 +17,4 @@
 
 // console.log(option,param);
 
-console.log('eit-tool 欢迎使用');
+console.log('eit-tool 欢迎您使用！');
