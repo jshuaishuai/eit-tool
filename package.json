@@ -1,18 +1,18 @@
 {
-  "name": "eit-tool",
-  "version": "1.0.3",
-  "bin": {
-    "eit": "bin/index.js"
-  },
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
-  "devDependencies": {
-    "lerna": "^4.0.0"
-  }
+    "name": "eit-tool",
+    "version": "1.0.4",
+    "bin": {
+        "eit": "bin/index.js"
+    },
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "description": "",
+    "devDependencies": {
+        "lerna": "^4.0.0"
+    }
 }
