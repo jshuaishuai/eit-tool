@@ -23,7 +23,7 @@
     "scripts": {
         "test": "echo \"Error: run tests from root\" && exit 1"
     },
-    "gitHead": "45809b54e78a8eed56fc2f72242f1f409cc81d63",
+    "gitHead": "7ecaa9ecc1b8adbd2a62c314077d42bfca3731ab",
     "dependencies": {
         "@eit-tool/exec": "^1.2.0",
         "@eit-tool/get-npm-info": "^1.2.0",
