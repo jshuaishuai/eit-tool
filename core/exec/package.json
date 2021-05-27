@@ -27,6 +27,7 @@
         "url": "https://github.com/jshuaishuai/eit-tool/issues"
     },
     "dependencies": {
-        "@eit-tool/package": "file:../../models/package"
-    }
+        "@eit-tool/package": "^1.1.2"
+    },
+    "gitHead": "45809b54e78a8eed56fc2f72242f1f409cc81d63"
 }

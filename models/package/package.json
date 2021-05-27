@@ -27,11 +27,12 @@
         "url": "https://github.com/jshuaishuai/eit-tool/issues"
     },
     "dependencies": {
-        "@eit-tool/format-path": "file:../../utils/format-path",
-        "@eit-tool/get-npm-info": "file:../../utils/get-npm-info",
+        "@eit-tool/format-path": "^1.1.2",
+        "@eit-tool/get-npm-info": "^1.1.2",
         "fs-extra": "^10.0.0",
         "npminstall": "^4.11.0",
         "path-exists": "^4.0.0",
         "pkg-dir": "^5.0.0"
-    }
+    },
+    "gitHead": "45809b54e78a8eed56fc2f72242f1f409cc81d63"
 }
