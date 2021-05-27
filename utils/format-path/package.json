@@ -1,9 +1,9 @@
 {
-    "name": "@eit-tool/core",
+    "name": "@eit-tool/format-path",
     "version": "0.1.1",
-    "description": "eit-tool core",
+    "description": "> TODO: description",
     "author": "jshuaishuai <ajiang115@qq.com>",
-    "homepage": "",
+    "homepage": "https://github.com/jshuaishuai/eit-tool#readme",
     "license": "ISC",
     "main": "lib/index.js",
     "directories": {
@@ -14,11 +14,17 @@
         "lib"
     ],
     "publishConfig": {
-        "registry": "https://registry.npmjs.org/",
         "access": "public"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/jshuaishuai/eit-tool.git"
     },
     "scripts": {
         "test": "echo \"Error: run tests from root\" && exit 1"
     },
-    "gitHead": "73db285f98c946bc4ac06a4c96e4f8a2ab1d582e"
+    "bugs": {
+        "url": "https://github.com/jshuaishuai/eit-tool/issues"
+    },
+    "dependencies": {}
 }

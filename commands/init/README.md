@@ -1,11 +1,11 @@
-# `core`
+# `@eit-tool/init`
 
 > TODO: description
 
 ## Usage
 
 ```
-const core = require('core');
+const init = require('@eit-tool/init');
 
 // TODO: DEMONSTRATE API
 ```
