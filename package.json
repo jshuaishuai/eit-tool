@@ -1,10 +1,14 @@
 {
     "name": "eit-tool",
-    "version": "1.0.4",
+    "version": "1.0.6",
+    "bin": {
+        "eit": "core/bin/index.js"
+    },
     "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
     },
+    "homepage": "https://github.com/jshuaishuai/eit-tool#readme",
     "keywords": [],
     "author": "",
     "license": "ISC",
