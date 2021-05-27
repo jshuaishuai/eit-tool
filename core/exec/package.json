@@ -1,6 +1,6 @@
 {
     "name": "@eit-tool/exec",
-    "version": "1.1.2",
+    "version": "1.2.0",
     "description": "> TODO: description",
     "author": "jshuaishuai <ajiang115@qq.com>",
     "homepage": "https://github.com/jshuaishuai/eit-tool#readme",
@@ -27,7 +27,7 @@
         "url": "https://github.com/jshuaishuai/eit-tool/issues"
     },
     "dependencies": {
-        "@eit-tool/package": "^1.1.2"
+        "@eit-tool/package": "^1.2.0"
     },
     "gitHead": "45809b54e78a8eed56fc2f72242f1f409cc81d63"
 }
