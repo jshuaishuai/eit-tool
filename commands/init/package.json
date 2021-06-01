@@ -4,7 +4,7 @@
     "description": "> TODO: description",
     "author": "jshuaishuai <ajiang115@qq.com>",
     "homepage": "https://github.com/jshuaishuai/eit-tool#readme",
-    "license": "ISC",
+    "license": "MIT",
     "main": "lib/index.js",
     "directories": {
         "lib": "lib",
@@ -27,5 +27,17 @@
     "bugs": {
         "url": "https://github.com/jshuaishuai/eit-tool/issues"
     },
-    "gitHead": "7ecaa9ecc1b8adbd2a62c314077d42bfca3731ab"
+    "gitHead": "7ecaa9ecc1b8adbd2a62c314077d42bfca3731ab",
+    "dependencies": {
+        "@eit-tool/command": "file:../../models/command",
+        "@eit-tool/log": "file:../../utils/log",
+        "@eit-tool/package": "file:../../models/package",
+        "@eit-tool/request": "file:../../utils/request",
+        "@eit-tool/utils": "file:../../utils/utils",
+        "colors": "^1.4.0",
+        "fs-extra": "^10.0.0",
+        "inquirer": "^8.1.0",
+        "semver": "^7.3.5",
+        "user-home": "^3.0.0"
+    }
 }

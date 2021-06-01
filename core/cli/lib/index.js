@@ -68,7 +68,6 @@ function registerCommand() {
     });
     // 对未知命令开启监控
     program.on("command:*", function (obj) {
-        console.log(123);
         const availableCommands = program.commands.map((cmd) => cmd.name());
         let unknownCommand = obj[0];
         let suggestion;

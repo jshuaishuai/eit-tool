@@ -1,9 +1,9 @@
 {
-    "name": "@eit-tool/exec",
+    "name": "@eit-tool/command",
     "version": "1.2.1",
     "description": "> TODO: description",
     "author": "jshuaishuai <ajiang115@qq.com>",
-    "homepage": "https://github.com/jshuaishuai/eit-tool#readme",
+    "homepage": "https://github.com/jshuaishuai/eit-tool/tree/main/core/command#readme",
     "license": "ISC",
     "main": "lib/index.js",
     "directories": {
@@ -14,7 +14,6 @@
         "lib"
     ],
     "publishConfig": {
-        "registry": "https://registry.npmjs.org",
         "access": "public"
     },
     "repository": {
@@ -28,9 +27,6 @@
         "url": "https://github.com/jshuaishuai/eit-tool/issues"
     },
     "dependencies": {
-        "@eit-tool/package": "^1.2.1",
-        "@eit-tool/log": "file:../../utils/log",
-        "@eit-tool/utils": "file:../../utils/utils"
-    },
-    "gitHead": "7ecaa9ecc1b8adbd2a62c314077d42bfca3731ab"
+        "@eit-tool/log": "file:../../utils/log"
+    }
 }
