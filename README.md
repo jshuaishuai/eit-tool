@@ -2,10 +2,11 @@
 
 自动化的前端脚手架
 
-### 安装
+### 快速上手
 
-npm install -g eit-tool
+```js
+npm install -g @eit-tool/core
 
-### 移除
-
-npm remove -g eit-tool
+$ mkdir template-example && cd template-example
+$ npm init [项目名称]
+```
