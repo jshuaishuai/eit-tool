@@ -30,6 +30,7 @@
         "@eit-tool/init": "^1.2.4",
         "@eit-tool/log": "^1.2.2",
         "colors": "^1.4.0",
+        "commander": "^7.2.0",
         "dotenv": "^10.0.0",
         "import-local": "^3.0.2",
         "leven": "^3.1.0",
