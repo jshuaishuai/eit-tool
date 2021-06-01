@@ -1,6 +1,6 @@
 {
     "name": "@eit-tool/core",
-    "version": "1.2.1",
+    "version": "1.2.2",
     "description": "eit-tool core",
     "author": "jshuaishuai <ajiang115@qq.com>",
     "homepage": "",
@@ -25,10 +25,10 @@
     },
     "gitHead": "7ecaa9ecc1b8adbd2a62c314077d42bfca3731ab",
     "dependencies": {
-        "@eit-tool/exec": "^1.2.1",
+        "@eit-tool/exec": "^1.2.2",
         "@eit-tool/get-npm-info": "^1.2.1",
-        "@eit-tool/init": "^1.2.1",
-        "@eit-tool/log": "^1.2.1",
+        "@eit-tool/init": "^1.2.2",
+        "@eit-tool/log": "^1.2.2",
         "colors": "^1.4.0",
         "dotenv": "^10.0.0",
         "import-local": "^3.0.2",
