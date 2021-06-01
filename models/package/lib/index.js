@@ -11,7 +11,7 @@ const {
 } = require("@eit-tool/get-npm-info");
 class Package {
     constructor(options) {
-        // console.log(options);
+        console.log(options);
         if (!options) {
             throw new Error("Package类的options参数不能为空！");
         }
@@ -46,7 +46,7 @@ class Package {
             fse.mkdirpSync(this.storeDir);
         }
         if (this.packageVersion === "latest") {
-            this.packageVersion = getNpmLatestVersion(this.packageName);
+            this.packageVersion = await getNpmLatestVersion(this.packageName);
         }
     }
 
@@ -64,6 +64,17 @@ class Package {
 
     async install() {
         await this.prepare();
+        // console.log({
+        //     root: this.targetPath,
+        //     storeDir: this.storeDir,
+        //     registry: getDefaultRegistry(),
+        //     pkgs: [
+        //         {
+        //             name: this.packageName,
+        //             version: this.packageVersion,
+        //         },
+        //     ],
+        // });
         return npminstall({
             root: this.targetPath,
             storeDir: this.storeDir,

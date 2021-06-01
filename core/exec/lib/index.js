@@ -29,6 +29,8 @@ async function exec() {
             packageName,
             packageVersion,
         });
+        // console.log(pkg);
+
         if (await pkg.exists()) {
             // 更新package
             await pkg.update();
