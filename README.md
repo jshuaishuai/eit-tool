@@ -4,7 +4,7 @@
 
 ### 快速上手
 
-```js
+```bash
 npm install -g @eit-tool/core
 
 $ mkdir template-example && cd template-example
