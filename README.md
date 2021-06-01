@@ -8,5 +8,5 @@
 npm install -g @eit-tool/core
 
 $ mkdir template-example && cd template-example
-$ npm init [项目名称]
+$ eit init [项目名称]
 ```
