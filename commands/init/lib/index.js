@@ -68,7 +68,11 @@ class InitCommand extends Command {
                     message: "是否确认清空当前目录文件？",
                 });
                 if (confirmDelete) {
+                    const spinner = spinnerStart(
+                        `${colors.brightGreen("正在清理目录文件...")}`
+                    );
                     fse.emptyDirSync(localPath);
+                    spinner.stop(true);
                 } else {
                     return;
                 }

@@ -19,7 +19,6 @@ async function exec() {
     const cmdName = cmdObj.name();
     const packageName = SETTINGS[cmdName];
     const packageVersion = "latest";
-
     if (!targetPath) {
         targetPath = path.resolve(homePath, CACHE_DIR);
         storeDir = path.resolve(targetPath, "node_modules");
@@ -29,15 +28,13 @@ async function exec() {
             packageName,
             packageVersion,
         });
-        // console.log(pkg);
-
         if (await pkg.exists()) {
             // 更新package
             await pkg.update();
-            console.log("更新");
+            log.verbose("install", "更新");
         } else {
             // 安装package
-            console.log("安装");
+            log.verbose("install", "安装");
             await pkg.install();
         }
     } else {
