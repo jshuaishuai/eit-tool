@@ -80,6 +80,8 @@ async function exec() {
         } catch (e) {
             log.error(e);
         }
+    }else{
+        log.error("error",'未找到正确的入口')
     }
 }
 
